@@ -1,0 +1,22 @@
+# Core Graph Orchestration
+langgraph>=0.1.0
+
+# LangChain Ecosystem (Core Framework)
+
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# Model Integration (Choose based on your setup)
+
+langchain-huggingface>=0.1.0   # For Hugging Face local/API endpoints
+langchain-openai>=0.2.0        # Uncomment if using OpenAI
+langchain-ollama>=0.1.0        # Uncomment for local models via Ollama
+
+# Utility & Tool Support
+duckduckgo-search>=6.0.0       # For web search tool agents
+requests>=2.32.4               # For handling HTTP API web calls
+pydantic>=2.0.0                # For state validation and structured outputs
+
+# Development / Environment Management
+python-dotenv>=1.0.1           # For securely managing API keys
